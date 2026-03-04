@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Miradi Tshikala</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { padding-top: 64px; }
+    #about { min-height: calc(100vh - 64px - 80px); }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo"><span>//</span> miradi.dev</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html" class="active">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <button class="nav-menu-btn" id="menuBtn" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-inner">
+    <div class="about-text reveal">
+      <span class="section-tag">01 — About</span>
+      <h2 class="section-heading">Who I Am</h2>
+
+      <p>
+        I'm a second-year Software Development student with a strong foundation in
+        Java and web development. I enjoy building practical applications that solve
+        real-world problems and help users work more efficiently.
+      </p>
+      <p>
+        My approach to development is driven by curiosity and a commitment to clean,
+        maintainable code. Whether working on front-end interfaces or back-end logic,
+        I focus on delivering solutions that are both functional and thoughtfully designed.
+      </p>
+
+      <div class="education-label">Education</div>
+      <div class="education-item">
+        <strong>Diploma in Software Development</strong><br>
+        IIE Rosebank College &mdash; 2025 &ndash; Present
+      </div>
+    </div>
+
+    <div class="about-photo-wrap reveal">
+      <div class="about-photo-placeholder">
+        <img src="IMG_2064.jpg" alt="Miradi Tshikala" class="about-photo">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Designed &amp; built by <span>Miradi Tshikala</span> &copy; <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

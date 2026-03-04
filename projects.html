@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Miradi Tshikala</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { padding-top: 64px; }
+    #projects { min-height: calc(100vh - 64px - 80px); }
+  </style>
+</head>
+<body>
+ 
+<!-- NAV -->
+<nav>
+  <div class="nav-logo"><span>//</span> miradi.dev</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="projects.html" class="active">Projects</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <button class="nav-menu-btn" id="menuBtn" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="projects-inner">
+    <span class="section-tag reveal">02 — Work</span>
+    <h2 class="section-heading reveal">Projects</h2>
+
+    <div class="projects-grid">
+
+      <!-- Task Manager -->
+      <div class="project-card reveal">
+        <div class="project-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+          </svg>
+        </div>
+        <div class="project-name">Task Manager</div>
+        <p class="project-desc">A task management application to add, update, complete, and remove items with a clean, intuitive interface and persistent state.</p>
+        <div class="project-tags">
+          <span class="proj-tag">HTML</span>
+          <span class="proj-tag">CSS</span>
+          <span class="proj-tag">JavaScript</span>
+        </div>
+      </div>
+
+      <!-- Portfolio Website -->
+      <div class="project-card reveal">
+        <div class="project-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+          </svg>
+        </div>
+        <div class="project-name">Portfolio Website</div>
+        <p class="project-desc">A personal portfolio built to showcase my projects, skills, and development journey — the site you're viewing right now.</p>
+        <div class="project-tags">
+          <span class="proj-tag">HTML</span>
+          <span class="proj-tag">CSS</span>
+          <span class="proj-tag">JavaScript</span>
+        </div>
+      </div>
+
+      <!-- Student Management System -->
+      <div class="project-card reveal">
+        <div class="project-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+          </svg>
+        </div>
+        <div class="project-name">Student Management System</div>
+        <p class="project-desc">A system for managing student records — add, update, search, and view student information with clean object-oriented architecture.</p>
+        <div class="project-tags">
+          <span class="proj-tag">Java</span>
+          <span class="proj-tag">OOP</span>
+        </div>
+      </div>
+
+      <!-- E-Commerce Website -->
+      <div class="project-card reveal">
+        <div class="project-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/>
+          </svg>
+        </div>
+        <div class="project-name">E-Commerce Website</div>
+        <p class="project-desc">A demo storefront with product listings, cart management, and dynamic pricing — demonstrating front-end state and DOM manipulation.</p>
+        <div class="project-tags">
+          <span class="proj-tag">HTML</span>
+          <span class="proj-tag">CSS</span>
+          <span class="proj-tag">JavaScript</span>
+        </div>
+      </div>
+
+      <!-- Expense Tracker -->
+      <div class="project-card reveal">
+        <div class="project-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/>
+          </svg>
+        </div>
+        <div class="project-name">Expense Tracker</div>
+        <p class="project-desc">An app to log, categorise, and summarise personal expenses over time — helping users maintain visibility over their finances.</p>
+        <div class="project-tags">
+          <span class="proj-tag">JavaScript</span>
+          <span class="proj-tag">HTML</span>
+          <span class="proj-tag">CSS</span>
+        </div>
+      </div>
+
+      <!-- Library Management System -->
+      <div class="project-card reveal">
+        <div class="project-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>
+          </svg>
+        </div>
+        <div class="project-name">Library Management System</div>
+        <p class="project-desc">A system for tracking books, managing loans, and calculating due dates — built using core Java OOP principles.</p>
+        <div class="project-tags">
+          <span class="proj-tag">Java</span>
+          <span class="proj-tag">OOP</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Designed &amp; built by <span>Miradi Tshikala</span> &copy; <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
